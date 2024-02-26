@@ -3,6 +3,7 @@ img{
     height: 400px;
     display: flex; 
     margin: 0 auto; 
+    padding: 5px;
 }
 
 *{
@@ -38,22 +39,36 @@ h2,h5{
   text-align:center
 }
 
-table{
-    border: 1px solid grey ;
+.about_us{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.about_us h2{
+    padding-bottom: 10px;
+}
+
+
+article{
     border-spacing: 0px;
     align-content: center;
     margin: 0 auto; 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; /* Center horizontally */
+    padding-bottom: 100px;
 }
 
-td{
+.column{
     border: 1px solid grey ;
 
 }
 
-td h2,h5{
+section h2,h5{
     text-align: center;
 }
 
 .services_{
     text-align: center;
+    padding-bottom: 10px;
 }
