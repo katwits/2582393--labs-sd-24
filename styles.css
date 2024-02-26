@@ -1,0 +1,59 @@
+img{
+    width: 600px;
+    height: 400px;
+    display: flex; 
+    margin: 0 auto; 
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+    color: aliceblue;
+    padding: 5px;
+}
+
+header{
+        background-color: rgb(61, 61, 61);
+        color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 15px;
+    
+
+}
+
+nav a{
+    padding-right: 10px;
+}
+
+
+h2,h5{
+  text-align:center
+}
+
+table{
+    border: 1px solid grey ;
+    border-spacing: 0px;
+    align-content: center;
+    margin: 0 auto; 
+}
+
+td{
+    border: 1px solid grey ;
+
+}
+
+td h2,h5{
+    text-align: center;
+}
+
+.services_{
+    text-align: center;
+}
